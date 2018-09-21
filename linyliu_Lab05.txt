@@ -1,0 +1,35 @@
+Section 1 - 2pts
+(1 pt) Question 1: print out a square bracket
+(1 pt) Question 2: import, add value and calculation based on BigDecimal
+
+Section 2 - 12pts
+(0 pt) Question 8, 10, 11
+
+Section 3 - 8 pts
+
+Section 4 - 9 pts
+(0.5 pt) Question 33: I got the correct result e, but wrong type. The right answer should be character instead of string.
+(0.5 pt) Question 35: I got the right beginning of substring, but the wrong end of it.
+
+Section 5 - 10.5 pt
+(1 pt) Question 36: Not a equals to true. If a is true, the result is false; if a is false, the result is true
+(1 pt) Question 37: Not a doesn't equal to false -> Same as not a equals to true
+(1 pt) Question 38: If a is true, true && false -> false; if a is false, true && true -> true
+(1 pt) Question 39: a is true when n equals to 3
+(1 pt) Question 40: a is false when n doesn't equal to 3 -> Same as a is true when n equals to 3
+(1 pt) Question 41: a is true if while within n> 3, n<5 at the same time
+(1 pt) Question 42: if n<0 a is true; if n>=0 a is true while n>1
+(1 pt) Question 43: n<5 or n>3 -> n can be any real number
+(1 pt) Question 44: n<3 and n>3 -> n cannot be any number
+(0.5 pt) Question 45: I got the correct expression of a while loop, but the wrong expression of a for loop.
+(1 pt) Question 46: the correct expression of both a while loop and a do-while loop
+
+Section 6 - 6pts
+(1 pt) Question 47: when m=10 -> if m>10 (and m>5) n=1, if m<10 n=2 -> n=1
+(1 pt) Question 48: when m=10 -> if m>10 (and m>5) n=1, if m<10 n=10 -> n=1
+(1 pt) Question 49: when m=10 -> if 5<m<10 n=1, if m>10 n=2 -> n=2
+(1 pt) Question 50: when m=10 -> if 5<m<10 n=1, if m<5 n=2, if m>10 n=original value -> n=10
+(1 pt) Question 51: Explained clearly what "tomato" interpreted in interaction and in complied program and why they have different results.
+(1 pt) Question 52: Dangling else with right bracket to express GPA<1.5 and 1.5<=GPA<2
+
+I think I can get 1pt for every other questions. So my estimated grade is 91.3.
