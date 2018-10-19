@@ -1,0 +1,24 @@
+change direction
+eat food
+grow 
+stop when snake steps out or over itself
+
+; A World is:                                                    ;
+;-- (make-world Snake Food)                                      ;
+(define-struct world (snake food))                               ;
+                                                                 ;
+; A Snake is:                                                    ;
+;-- (make-snake Direction Head Body)                             ;
+(define-struct snake (direction head body))                      ;
+                                                                 ;
+; A Direction is one of:                                         ;
+;-- "north"                                                      ; 
+;-- "east"                                                       ;
+;-- "south"                                                      ;
+;-- "west"                                                       ;
+                                                                 ;
+; A Food is [List of Posn]                                       ;
+                                                                 ;
+; A Head is a Posn                                               ;
+                                                                 ;
+; A Body is [Listof Posn]    
