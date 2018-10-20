@@ -1,5 +1,5 @@
 Circle -> Snake + Food
-+ World -> BigBang -> Ripples
++ BigBang -> World -> Ripples
 = Game
 
 change direction
