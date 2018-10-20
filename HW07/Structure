@@ -1,6 +1,7 @@
-Circle -> Snake + Food
-+ BigBang -> World -> Ripples
-= Game
+Circle -> Snake + Food                 -- Constants -> ?? -> Snake == (Part + Snake) + Food
++ BigBang -> World -> Ripples          -- BigBang == Game Panel -> World == Game Frame
+= Game                                 -- Game
+                                       -- Constants + Run: main
 
 change direction
 eat food
