@@ -24,17 +24,17 @@ public class Profile implements Comparable<Profile>{
       return name + "=" + voteCount;
     }
   public static void main(String[] args) throws FileNotFoundException, IOException{
+  
     //Declared file object with the relative file path (Note: file must be in project directory)
     File f = new File("Candidate.txt");
     
     //Declare a scanner object, sending the file object to the Scanner's constructor
     Scanner in = new Scanner(f);
-   
-    System.out.println("Optional desired size of results to input...");
-    System.out.println("If you want to get the whole size, please input 0");
-    Scanner sizein = new Scanner(System.in);
-    int size = sizein.nextInt();
-    
+
+    /*public static void main(String[] args) throws NullPointerException{
+    String sizeStr = System.console().readLine();
+    Integer size = Integer.parseInt(sizeStr);
+    sizeStr = null;*/
     
     Map<String, Integer> candtxt = new HashMap<String, Integer>();
     
@@ -73,6 +73,7 @@ public class Profile implements Comparable<Profile>{
     in.close();*/
     
     
+  
     ArrayList<Profile> candidates = new ArrayList<Profile>();
 
    //link ArrayList to HashMap
@@ -82,28 +83,31 @@ public class Profile implements Comparable<Profile>{
       Profile cand = new Profile (key,value);
       candidates.add(cand);}
    }
-    
-   /*try{
-    String sizeStr = System.console().readLine();
-    Integer size = Integer.parseInt(sizeStr);
-    size = null;
-}catch(NullPointerException e) 
-        {System.out.print("Caught NullPointerException"); } 
-  }*/
-  
+   
+    while (true) { 
+    System.out.println("Optional desired size of results to input...");
+    Scanner n = new Scanner(System.in);
+    String sizeStr = n.nextLine();
 
    //sort
    Collections.sort(candidates);
-   if (size != 0){
+   int count = 1;
+   try{
+     int size = Integer.parseInt(sizeStr);
+     
      for(int i=0; i< size; i++){
-       System.out.println(candidates.get(i));}
-   }else{
-        int count = 1;
+       System.out.println(count + ". " + candidates.get(i));
+       ++count;
+     }
+         n.close();
+        break;
+      } catch (Exception e) {
+        System.out.println("You didn't input any valid integer. So the whole vote result is:"); 
     for (Profile s : candidates){
       System.out.println(count + ". " + s);
       ++count;
    }
    }
-
-}
+       }
+  }
 }
