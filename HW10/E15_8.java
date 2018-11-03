@@ -1,4 +1,4 @@
-//reversing the order of a oldStr
+// reverse the order of a oldStr
 import java.util.Scanner;
 import java.util.Stack;
 
