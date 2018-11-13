@@ -1,3 +1,2 @@
-P16_9's files:
-run P16_9
-contain LispList, EmptyList, NonEmptyList
+run P16_9, P16_10, P16_12
+each contains LispList, EmptyList, NonEmptyList
