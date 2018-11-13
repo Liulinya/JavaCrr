@@ -6,12 +6,12 @@ public class P16_9
       System.out.println("[" + a + "]");
       System.out.println("Expected: []");
 
-      LispList c = new NonEmptyList("A", new NonEmptyList("B", new NonEmptyList("C", new EmptyList())));
-      System.out.println(c);
+      LispList b = new NonEmptyList("A", new NonEmptyList("B", new NonEmptyList("C", new EmptyList())));
+      System.out.println(b);
       System.out.println("Expected: A B C");
 
-      LispList d = LispList.NIL.cons("E").cons("D").cons("C");
-      System.out.println(d);
+      LispList c = LispList.NIL.cons("E").cons("D").cons("C");
+      System.out.println(c);
       System.out.println("Expected: A B C");
    }
 }
