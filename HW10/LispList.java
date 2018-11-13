@@ -3,5 +3,5 @@ public interface LispList{
    boolean empty();
    Object head();
    LispList tail();
-   LispList cons(Object o);
+   LispList cons(Object obj);
 }
