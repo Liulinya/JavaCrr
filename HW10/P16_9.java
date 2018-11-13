@@ -10,7 +10,7 @@ public class P16_9
       System.out.println(b);
       System.out.println("Expected: A B C");
 
-      LispList c = LispList.NIL.cons("E").cons("D").cons("C");
+      LispList c = LispList.NIL.cons("C").cons("B").cons("A");
       System.out.println(c);
       System.out.println("Expected: A B C");
    }
